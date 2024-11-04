@@ -1,0 +1,43 @@
+def rendelesek_feldolgozasa():
+    rendelesek = []
+
+    while True:
+        etel_neve = input("Étel neve:")
+        if etel_neve == "vége":
+            break
+        etel_ara = int(input("Étel ára: "))
+
+        rendelesek.append({"etel": etel_neve, "ar": etel_ara})
+
+    return rendelesek 
+
+def napi_bevetel(rendelesek):
+    return sum(rendelesek["ar"] for rendeles in rendelesek)    
+
+
+def eredmenyek_kiirasa(rendelesek):
+    bevetelek = napi_bevetel(rendelesek)
+
+    legnepszerubb, darabszam = legnepszeerubb_etel(rendelesek)
+
+    print(f"Napi bevétel": {})
+
+def legnepszerubb_etel(rendelesek):
+    etelek = {}
+    for rendeles in rendelesek:
+        kaja_nev = rendeles["étel"]
+
+        if kaja_nev in etelek:
+            etelek["étel"] += 1
+        else:
+            etelek[kaja_nev] = 1
+
+    legnepszerubb = max(etelek, key=etelek.get)        
+
+    return legnepszerubb, etelek[legnepszerubb]
+
+
+    print(f"Napi bevétel: {bevetelek} Ft")
+
+rendelesek = rendelesek_feldolgozasa()
+eredmenyek_kiirasa(rendelesek)

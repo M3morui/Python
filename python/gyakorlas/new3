@@ -1,0 +1,37 @@
+def atlag_kiszamol(matek, irodalom, biologia):
+    return (matek + irodalom + biologia) / 3
+
+def atment_e(atlag):
+    return atlag >= 50 
+
+atlag = atlag_kiszamol(100, 0, 50)
+
+print(atment_e(atlag))
+
+
+def diakok_ertekelese():
+    diakok = []
+
+    while True:
+        nev = input("Diák neve: ")
+        if nev == "vége":
+            break 
+
+        matek = int(input("matek pontszáma: "))
+        irodalom = int(input("Irodalom pontszáma: "))
+        biologia = int(input("Biológia pontszáma: "))
+
+        atlag= atlag_kiszamol(matek, irodalom, biologia)
+        atment = "Átment" if atment_e(atlag) else "Nem ment át"
+        diakok.append({"nev" : nev, "átlag": atlag, "atment": atment})
+
+    return diakok
+
+def eredmeny_kiiratas(diakok):
+    for diak in diakok:
+        print(f"{diak['nev']}: Átlag = {diak['átlag']:.2f} Átment-e = {diak['atment']}")
+
+diakok = diakok_ertekelese()
+eredmeny_kiiratas(diakok)
+
+

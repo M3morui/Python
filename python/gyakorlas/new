@@ -1,0 +1,64 @@
+def hello(firstname, lastname, datestring):
+    print("Hello, " + firstname + " " + lastname)
+    print(" A dátum " + datestring)
+
+
+
+def hello(firstname, lastname, datestring=""):
+    content = "Hello " + firstname + " " lastname + " !"
+
+if len(datestring) > 0:
+    content += "\nA dátum: " + datestring
+
+    return content
+
+
+def elemek_osszege(lista):
+    eredmeny = 0 
+
+    for elem in lista:
+        eredmeny += elem
+
+
+    return eredmeny
+
+lista1 = [10, 20, 30]
+lista2 = [5, 6, 7]
+lista3 = [101, 56, 72]
+
+print(f"lista1 összege : {elemek_összege(lista1)}")
+print(f"lista2 összege : {elemek_összege(lista2)}")
+print(f"lista3 összege : {elemek_összege(lista3)}")
+
+
+def paros(szam):
+    return szam % 2 == 0
+
+def karakterek_szama(szoveg):
+    return len(szoveg.split())
+
+print(karakterek_szama("kutya"))
+
+hossz = karakterek_szama("kutya")
+
+
+
+
+
+
+for elem in lista2:
+    if paros(elem):
+        print("páros")
+    else:
+        print("páratlan")
+
+
+
+
+
+
+
+
+
+
+
