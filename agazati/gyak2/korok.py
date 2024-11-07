@@ -15,6 +15,7 @@ def elso_idos(korok):
     for kor in korok:
         if kor >= 70:
             index = korok.index(kor)
+            break
     return index
 
 def konzolra_ir(index):

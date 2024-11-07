@@ -1,3 +1,5 @@
+print("3.feladat")
+
 def beolvas(fajlkezeles):
     lista = []
     with open (fajlkezeles, "r", encoding="UTF8") as file:
