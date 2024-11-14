@@ -1,0 +1,25 @@
+
+Osztály: 1.A, Teljes áras befizetések: 300000,  Kedvezményes befizetések: 42000, Összeg: 342000
+Osztály: 1.B, Teljes áras befizetések: 275000,  Kedvezményes befizetések: 23100, Összeg: 298100
+Osztály: 2.A, Teljes áras befizetések: 364000,  Kedvezményes befizetések: 36400, Összeg: 400400
+Osztály: 2.B, Teljes áras befizetések: 310500,  Kedvezményes befizetések: 16100, Összeg: 326600
+Osztály: 3.A, Teljes áras befizetések: 350000,  Kedvezményes befizetések: 58800, Összeg: 408800
+Osztály: 3.B, Teljes áras befizetések: 337500,  Kedvezményes befizetések: 26250, Összeg: 363750
+Osztály: 4.A, Teljes áras befizetések: 351000,  Kedvezményes befizetések: 66150, Összeg: 417150
+Osztály: 4.B, Teljes áras befizetések: 338000,  Kedvezményes befizetések: 36400, Összeg: 374400
+Osztály: 5.A, Teljes áras befizetések: 391500,  Kedvezményes befizetések: 50750, Összeg: 442250
+Osztály: 5.B, Teljes áras befizetések: 288000,  Kedvezményes befizetések: 50400, Összeg: 338400
+Osztály: 6.A, Teljes áras befizetések: 480000,  Kedvezményes befizetések: 21000, Összeg: 501000
+Osztály: 6.B, Teljes áras befizetések: 406000,  Kedvezményes befizetések: 29400, Összeg: 435400
+Osztály: 7.A, Teljes áras befizetések: 432000,  Kedvezményes befizetések: 44800, Összeg: 476800
+Osztály: 7.B, Teljes áras befizetések: 387500,  Kedvezményes befizetések: 54250, Összeg: 441750
+Osztály: 8.A, Teljes áras befizetések: 459000,  Kedvezményes befizetések: 71400, Összeg: 530400
+Osztály: 8.B, Teljes áras befizetések: 478500,  Kedvezményes befizetések: 23100, Összeg: 501600
+Osztály: 9.A, Teljes áras befizetések: 504000,  Kedvezményes befizetések: 50400, Összeg: 554400
+Osztály: 9.B, Teljes áras befizetések: 375000,  Kedvezményes befizetések: 52500, Összeg: 427500
+Osztály: 10.A, Teljes áras befizetések: 555000,  Kedvezményes befizetések: 38850, Összeg: 593850
+Osztály: 10.B, Teljes áras befizetések: 420000,  Kedvezményes befizetések: 73500, Összeg: 493500
+Osztály: 11.A, Teljes áras befizetések: 475000,  Kedvezményes befizetések: 93100, Összeg: 568100
+Osztály: 11.B, Teljes áras befizetések: 499500,  Kedvezményes befizetések: 51800, Összeg: 551300
+Osztály: 12.A, Teljes áras befizetések: 560000,  Kedvezményes befizetések: 70000, Összeg: 630000
+Osztály: 12.B, Teljes áras befizetések: 468000,  Kedvezményes befizetések: 81900, Összeg: 549900
