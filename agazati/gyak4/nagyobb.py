@@ -5,5 +5,5 @@ if szam1 > szam2:
     print(f"A nagyobb érték: {szam1}")
 if szam1 < szam2:
     print(f"A nagyobb érték: {szam2}")
-if szam1 ==szam2:
+if szam1 == szam2:
     print(f"A két szám egyenlő")
