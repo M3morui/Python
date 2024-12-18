@@ -1,0 +1,12 @@
+Anna, 25, Budapest
+Béla, 30, Szeged
+Cecília, 22, Debrecen
+Dániel, 28, Pécs
+Erika, 35, Miskolc
+Ferenc, 40, Veszprém
+Gábor, 33, Budapest
+Hanna, 26, Budapest
+József, 31, Szeged
+Katalin, 27, Pécs
+László, 29, Miskolc
+Mária, 38, Veszprém
